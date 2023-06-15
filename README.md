@@ -137,7 +137,7 @@ Steering committee members: **TBA**
 
 # ChatDKG - Open Office hours videos
 
-ChatDKG Open office hours are organized on a frequent basis and are by default recorded. All office hours videos will be posted here. For 
+ChatDKG Open office hours are organized on a frequent basis and are by default recorded. All office hours videos will be posted here. Everyone interested in ChatDKG topics is invited and welcome to join the Open Office Hours - [join the ChatDKG Discord](https://discord.gg/R4tRpCuwaA) or follow us on [Twitter](https://twitter.com/origin_trail) to stay informed for the next editions.
 
 [1st ChatDKG Office Hours: Introduction to trusted AI search on OriginTrail](https://www.youtube.com/watch?v=Q3-d_Dxrjhs)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/Q3-d_Dxrjhs/0.jpg)](https://www.youtube.com/watch?v=Q3-d_Dxrjhs "1st ChatDKG Office Hours: Introduction to trusted AI search on OriginTrail")
