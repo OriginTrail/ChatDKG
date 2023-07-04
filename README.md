@@ -142,6 +142,13 @@ ChatDKG Open office hours are organized on a frequent basis and are by default r
 [1st ChatDKG Office Hours: Introduction to trusted AI search on OriginTrail](https://www.youtube.com/watch?v=Q3-d_Dxrjhs)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/Q3-d_Dxrjhs/0.jpg)](https://www.youtube.com/watch?v=Q3-d_Dxrjhs "1st ChatDKG Office Hours: Introduction to trusted AI search on OriginTrail")
 
+
+
+[2nd ChatDKG Office Hours: Trusted AI search on OriginTrail](https://www.youtube.com/watch?v=cRPdl4wGroQ)
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/cRPdl4wGroQ/0.jpg)](https://www.youtube.com/watch?v=cRPdl4wGroQ "2nd ChatDKG Office Hours: Trusted AI search on OriginTrail")
+
+
 # Join the ChatDKG community
 
 **[Join the ChatDKG community on Discord](https://discord.gg/R4tRpCuwaA)**
