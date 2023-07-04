@@ -125,7 +125,13 @@ The Steering committee for ChatDKG is comprised of 5 members with the following 
 * Supporting ChatDKG builders: advising, grant application selection, support in project execution
 * Facilitating discussions through the ChatDKG channels
 
-Steering committee members: **TBA**
+Steering committee members: 
+
+* [Oshani Seneviratne](https://faculty.rpi.edu/oshani-seneviratne)
+  * Assistant Professor at Rensselaer Polytechnic Institute (RPI), NY
+  * Ph.D. & S.M. in Computer Science, MIT  (under the supervision of Sir Tim Berners-Lee, the inventor of the World Wide Web)
+  * Primary Research Focus: Decentralized Systems
+* More SC committee members TBA
 
 
 # Documentation and decks
