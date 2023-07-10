@@ -145,14 +145,11 @@ Steering committee members:
 
 ChatDKG Open office hours are organized on a frequent basis and are by default recorded. All office hours videos will be posted here. Everyone interested in ChatDKG topics is invited and welcome to join the Open Office Hours - [join the ChatDKG Discord](https://discord.gg/R4tRpCuwaA) or follow us on [Twitter](https://twitter.com/origin_trail) to stay informed for the next editions.
 
-[1st ChatDKG Office Hours: Introduction to trusted AI search on OriginTrail](https://www.youtube.com/watch?v=Q3-d_Dxrjhs)
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/Q3-d_Dxrjhs/0.jpg)](https://www.youtube.com/watch?v=Q3-d_Dxrjhs "1st ChatDKG Office Hours: Introduction to trusted AI search on OriginTrail")
-
-
-
-[2nd ChatDKG Office Hours: Trusted AI search on OriginTrail](https://www.youtube.com/watch?v=cRPdl4wGroQ)
-
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/cRPdl4wGroQ/0.jpg)](https://www.youtube.com/watch?v=cRPdl4wGroQ "2nd ChatDKG Office Hours: Trusted AI search on OriginTrail")
+| Title | Video |
+| --- | ----------- |
+| [1st ChatDKG Office Hours: Introduction to trusted AI search on OriginTrail](https://www.youtube.com/watch?v=Q3-d_Dxrjhs) | [![IMAGE ALT TEXT](http://img.youtube.com/vi/Q3-d_Dxrjhs/0.jpg)](https://www.youtube.com/watch?v=Q3-d_Dxrjhs "1st ChatDKG Office Hours: Introduction to trusted AI search on OriginTrail") |
+| [2nd ChatDKG Office Hours: Trusted AI search on OriginTrail](https://www.youtube.com/watch?v=cRPdl4wGroQ) | [![IMAGE ALT TEXT](http://img.youtube.com/vi/cRPdl4wGroQ/0.jpg)](https://www.youtube.com/watch?v=cRPdl4wGroQ "2nd ChatDKG Office Hours: Trusted AI search on OriginTrail") |
+| [3rd ChatDKG Office Hours: Decentralized AI with OriginTrail & Langchain](https://www.youtube.com/watch?v=xLcsKzUzgh4) | [![IMAGE ALT TEXT](http://img.youtube.com/vi/xLcsKzUzgh4/0.jpg)](https://www.youtube.com/watch?v=xLcsKzUzgh4 "3rd ChatDKG Office Hours: Decentralized AI with OriginTrail & Langchain") |
 
 
 # Join the ChatDKG community
