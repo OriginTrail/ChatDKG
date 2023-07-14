@@ -1,0 +1,18 @@
+{
+  "name": "ChatDKG-langchain-example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": "",
+  "license": "",
+  "main": "index.js",
+  "dependencies": {
+    "dkg.js": "^6.0.7",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {}
+}
