@@ -1,3 +1,5 @@
+# with this Python script we are loading all Knowledge Asset vector embeddings into Milvus VectorDB
+
 import os
 import pandas as pd
 import langchain
