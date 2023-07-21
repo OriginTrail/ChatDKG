@@ -1,3 +1,5 @@
+// This file generates a simple tsv file from the input graph, used to produce vector embeddings
+
 import fs from "fs";
 
 const yewmakerol = JSON.parse(fs.readFileSync("./yewmakerol.json"));
