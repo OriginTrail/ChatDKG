@@ -14,6 +14,7 @@ Additionally, to extend the extractive approach, we also demonstrate an "extract
 - Python 3.10 or higher.
 - Access to an OriginTrail DKG node. You can setup your own by following instructions [here](https://docs.origintrail.io/decentralized-knowledge-graph-layer-2/testnet-node-setup-instructions/setup-instructions-dockerless)
 - An account on [Milvus](https://cloud.zilliz.com/orgs).
+- Optionally: OpenAI API key
 
 ## Installation
 
