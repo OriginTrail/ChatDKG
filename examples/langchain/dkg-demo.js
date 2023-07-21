@@ -18,6 +18,9 @@ const dkg = new DKG({
   },
 });
 
+
+// NOTE: You will need OTP and TRAC testnet tokens for the next operation. You can get them on the OriginTrail Discord token faucet, as explained here: 
+// https://docs.origintrail.io/decentralized-knowledge-graph-layer-2/testnet-node-setup-instructions/fund-your-v6-testnet-node
 (async () => {
    // creating a Knowledge Asset on OriginTrail DKG
     const creationResult = await dkg.asset.create(yewmakerol, { epochsNum: 5 });
