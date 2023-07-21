@@ -9,7 +9,7 @@ from langchain.vectorstores import Milvus
 load_dotenv()
 
 
-# LANGCHAIN API
+# Initializing VectorDB connection which was pre-populated with Knowledge Asset vector embeddings
 vector_db = Milvus(
     collection_name="OfficeHoursDemoCollection",
     embedding_function=HuggingFaceEmbeddings(model_name="multi-qa-MiniLM-L6-cos-v1"),
@@ -21,6 +21,7 @@ vector_db = Milvus(
         },
 )
 
+# We demonstrate vector similarity search with a simple demo question
 
 question = "Can I take Yewmakerol if i'm pregnant ?"
 docs = vector_db.similarity_search(question)
@@ -36,11 +37,12 @@ for doc in docs:
     }
     all_documents.append(document_dict)
 
+# We obtain a list of relevant extracted Knowledge Assets for further exploration
 print("EXTRACTED RESPONSES: \n")
 print(json.dumps(all_documents, indent=4))
 
 
-# OPENAI API
+# If we want to, we can submit the extracted results further to an LLM (OpenAI in this case) to obtain a summary of the extracted information
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
