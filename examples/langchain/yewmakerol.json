@@ -1,0 +1,140 @@
+{
+  "@context": "http://schema.org/",
+  "@id": "urn:epc:idpat:sgtin:0451104.000019:leaflet",
+  "@type": "DigitalDocument",
+  "belongsTo": {
+    "@id": "urn:epc:idpat:sgtin:0451104.000019",
+    "isPartOf": "did:dkg:otp/0x1a061136ed9f5ed69395f18961a0a535ef4b3e5f/338045"
+  },
+  "sections": [
+    {
+      "title": "Package leaflet - information for the user",
+      "subsections": [
+        {
+          "title": "Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.",
+          "body": "• Keep this leaflet. You may need to read it again\n• If you have any further questions, ask your doctor or pharmacist\n• Do not pass this medicine on to others. It may harm them, even if their signs of illness are the same as yours\n• If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet"
+        },
+        {
+          "title": "What is in this leaflet:",
+          "body": "1. What yewmakerol is and what it is used for\n2. What you need to know before you take yewmakerol\n3. How to take yewmakerol\n4. Possible side effects\n5. How to store yewmakerol\n6. Contents of the pack and other information"
+        }
+      ]
+    },
+    {
+      "title": "1. What yewmakerol is and what it is used for?",
+      "subsections": [
+        {
+          "body": "The name of your medicine is Yewmakerol 500mg Tablets (called yewmakerol throughout this leaflet). This medicine contains yewmakerol. It belongs to a group of medicines called analgesics (painkillers) and is used to treat pain (including headache, toothache, back and period pain)."
+        }
+      ]
+    },
+    {
+      "title": "2. What you need to know before taking yewmakerol",
+      "subsections": [
+        {
+          "title": "Do not take yewmakerol and tell your doctor if",
+          "body": "• You are allergic to the active substance or any of the other ingredients in your medicine (listed in Section 6)\nSigns of an allergic reaction include a rash and breathing problems. There can also be swelling of the legs, arms, face, throat or tongue"
+        },
+        {
+          "title": "Children",
+          "body": "Yewmakerol 500mg Tablets must not be given to children under 10 years of age.\n\nDo not take yewmakerol if any of the above apply to you. If you are not sure, talk to your doctor or pharmacist before taking yewmakerol."
+        },
+        {
+          "title": "Warnings and precautions",
+          "body": "**Take special care and check with your doctor before taking yewmakerol if:**\n• You have severe kidney or liver problems\n• You have a liver problem caused by alcohol\n\nIf you are not sure if any of the above apply to you, talk to your doctor or pharmacist before taking this medicine"
+        },
+        {
+          "title": "Other medicines and yewmakerol",
+          "body": "Please tell your doctor or pharmacist if you are taking or have recently taken any other medicines. This includes medicines obtained without a prescription, including herbal medicines. This is because yewmakerol can affect the way some other medicines work. Also, some other medicines can affect the way yewmakerol works."
+        },
+        {
+          "title": "While taking yewmakerol you should not take any other medicines which contain yewmakerol.",
+          "body": "This includes some painkillers, cough and cold remedies. It also includes a wide range of other medicines available from your doctor and more widely in shops.\n\nTell your doctor if you are taking any of the following medicines:\n• Medicines used to thin the blood such as warfarin\n• Metoclopramide or domperidone - used to stop you feeling sick (nausea) or being sick (vomiting)\n• Colestyramine - for lowering blood cholesterol levels\n\nIf you are not sure if any of the above apply to you, talk to your doctor or pharmacist before taking yewmakerol."
+        },
+        {
+          "title": "Taking yewmakerol with alcohol",
+          "body": "You should not drink whilst taking these tablets. Taking alcohol with yewmakerol can increase your chances of getting side effects."
+        },
+        {
+          "title": "Pregnancy and breast-feeding",
+          "body": "Talk to your doctor before taking these tablets if:\n• You are pregnant, think you may be pregnant or plan to get pregnant\n• You are breast-feeding or planning to breast-feed\n\nIf necessary, yewmakerol can be used during pregnancy. You should use the lowest possible dose that reduces your pain and use it for the shortest time possible. Contact your doctor or midwife if the pain is not reduced or if you need to take the medicine more often."
+        }
+      ]
+    },
+    {
+      "title": "3. How to take yewmakerol?",
+      "subsections": [
+        {
+          "body": "Always take yewmakerol exactly as instructed on this leaflet. Check with your doctor or pharmacist if you are not sure.\n• **Do not take more than the recommended dose**\n• **If you need to use this medicine for more than three days at a time, see your doctor**"
+        },
+        {
+          "title": "Adults and children over 16",
+          "body": "• The usual dose of yewmakerol is 2 tablets\n• Swallow the tablets whole with a drink of water\n• Wait at least 4 hours before taking another dose\n• Do not take more than 4 doses in any 24-hour period"
+        },
+        {
+          "title": "Use in children aged 10 to 15",
+          "body": "• Take one tablet every four to six hours when necessary to a maximum of four doses in 24 hours."
+        },
+        {
+          "title": "Use in children under 10",
+          "body": "Yewmakerol 500mg Tablets should not be given to children under 10 years of age."
+        },
+        {
+          "title": "If you take more yewmakerol than you should",
+          "body": "• Talk to a doctor at once if you take too much of this medicine even if you feel well. This is because too much yewmakerol can cause delayed, serious liver damage.\n• Remember to take any remaining tablets and the pack with you. This is so the doctor knows what you have taken"
+        },
+        {
+          "title": "If you forget to take yewmakerol",
+          "body": "If you forget to take a dose at the right time, take it as soon as you remember. However, do not take a double dose to make up for a forgotten dose. Remember to leave at least 4 hours between doses."
+        }
+      ]
+    },
+    {
+      "title": "4. Possible side effects",
+      "subsections": [
+        {
+          "body": "Like all medicines, this medicine can cause side effects, although not everybody gets them. The following side effects may happen with this medicine:\n\n**Stop taking yewmakerol and see a doctor or go to a hospital straight away if:**\n• You get swelling of the hands, feet, ankles, face, lips or throat which may cause difficulty in swallowing or breathing. You could also notice an itchy, lumpy rash (hives) or nettle rash (urticaria) This may mean you are having an allergic reaction to yewmakerol.\n• You get serious skin reactions. Very rare cases have been reported.\n\n**Tell your doctor or pharmacist if any of the following side effects gets serious or lasts longer than a few days:**\n• You get infections or bruise more easily than usual. This could be because of a blood problem (such as agranulocytosis, neutropenia or thrombocytopenia). This side effect has only happened in a few people taking yewmakerol"
+        },
+        {
+          "title": "Reporting of side effects",
+          "body": "If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the Yellow card Scheme at: www.mhra.gov.uk/yellowcard or search for MHRA Yellow Card in the Google Play or Apple App Store. By reporting side effects, you can help provide more information on the safety of this medicine."
+        }
+      ]
+    },
+    {
+      "title": "5. How to store Yewmakerol",
+      "subsections": [
+        {
+          "body": "• Keep this medicine out of the sight and reach of children.\n• Do not use this medicine after the expiry date shown on the pack. The expiry date refers to the last day of that month.\n• Store your medicine in the original packaging in order to protect from moisture.\n• Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment."
+        }
+      ]
+    },
+    {
+      "title": "6. Contents of the pack and other information",
+      "subsections": [
+        {
+          "title": "What Yewmakerol 500mg Tablets contain",
+          "body": "• The active substance is yewmakerol. Each tablet contains 500mg of yewmakerol.\n• The other ingredients are maize starch, potassium sorbate, purified talc, stearic acid, povidone, and soluble starch."
+        },
+        {
+          "title": "Contents of pack",
+          "body": "Yewmakerol 500mg Tablets come in cartons of 8, 16, and 32. Not all pack sizes may be sold."
+        },
+        {
+          "title": "The Marketing Authorisation Holder is:",
+          "body": "YewMaker Limited\n84 New Clarence Lane, London, SE4A 1LR, UK"
+        },
+        {
+          "title": "The Manufacturer is:",
+          "body": "YewMaker Limited\nOffice 126-154, Eliot House, Farm View Unit B, London, SE1 4PN, UK"
+        },
+        {
+          "body": "\"Yewmakerol\" is a registered trademark © 2023 YewMaker"
+        },
+        {
+          "body": "This leaflet was updated in February 2023"
+        }
+      ]
+    }
+  ]
+}
