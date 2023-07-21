@@ -1,4 +1,4 @@
-# ChatDKG Project README
+# ChatDKG - Extractive question answering with OriginTrail and Langchain
 
 This example shows a basic extractive question answering application built with OriginTrail Knowledge Assets and Langchain. 
 It walks you through the process of creating a single Knowledge Asset on the OriginTrail Decentralized Knowledge Graph and necessary indexing operations to enable extractive question answering (EQA) using natural language based semantic search (such as in the form of asking a question) over the Knowledge Asset content using Langchain and Milvus Vector DB.
