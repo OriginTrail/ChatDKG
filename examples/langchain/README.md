@@ -1,11 +1,18 @@
 # ChatDKG Project README
 
-This example walks you through the process of creating a knowledge asset on the Origintrail decentralized knowledge graph and searching the knowledge asset using the power of Langchain and OpenAI.
+This example shows a basic extractive question answering application built with OriginTrail Knowledge Assets and Langchain. 
+It walks you through the process of creating a single Knowledge Asset on the OriginTrail Decentralized Knowledge Graph and necessary indexing operations to enable extractive question answering (EQA) using natural language based semantic search (such as in the form of asking a question) over the Knowledge Asset content using Langchain and Milvus Vector DB.
+
+In contrast to generative QA systems such as ChatGPT, an extractive system doesn't "hallucinate", rather only extracts content from within the verifiable Knowledge Asset. 
+Additionally, to extend the extractive approach, we also demonstrate an "extract & summarize" approach that takes the extracted content from the Knowledge Asset and submits it to an LLM (in this case OpenAI) to summarize.
+
+
 
 ## Pre-requisites
 
 - NodeJS v16 or higher.
 - Python 3.10 or higher.
+- Access to an OriginTrail DKG node. You can setup your own by following instructions [here](https://docs.origintrail.io/decentralized-knowledge-graph-layer-2/testnet-node-setup-instructions/setup-instructions-dockerless)
 - An account on [Milvus](https://cloud.zilliz.com/orgs).
 
 ## Installation
@@ -19,7 +26,7 @@ cd ChatDKG
 
 ## NodeJS Dependencies
 
-First, let's install the NodeJS dependencies:
+First install the NodeJS dependencies:
 
 ```bash
 npm install
@@ -54,7 +61,7 @@ OPENAI_API_KEY=<Your OpenAI API Key>
 
 # Usage
 
-## Create an Asset
+## Create a Knowledge Asset
 
 Start by running the dkg-demo.js script:
 
@@ -62,7 +69,7 @@ Start by running the dkg-demo.js script:
 node dkg-demo.js
 ```
 
-The console will print a UAL, copy that for the next step.
+The console will print a Uniform Asset Locator (UAL), copy that for the next step.
 ## Generate TSV
 
 Next, run the generate-tsv.js script with the UAL as an argument:
@@ -72,6 +79,7 @@ node generate-tsv.js <UAL>
 ```
 
 This will generate a file named output.tsv.
+
 ## Upload Embeddings
 
 Make sure your Milvus account details are set up in the .env file. Then run the upload-embeddings.py script:
@@ -81,6 +89,7 @@ python upload-embeddings.py
 ```
 
 This script reads the TSV file, generates embeddings and uploads them to your Milvus account.
+
 ## Search in the Knowledge Graph
 
 Now you can run the search.py script:
