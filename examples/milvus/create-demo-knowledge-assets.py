@@ -1,6 +1,7 @@
 # This is a simple example of creating a Knowledge Asset from a JSON file on OriginTrail DKG
 import os
 import pandas as pd
+import json
 import langchain
 import js2py
 from dkg import DKG
@@ -14,7 +15,7 @@ load_dotenv()
 
 # Load the content of the Knowledge Asset (using an imaginary medicine "Yewmakerol" leaflet as content
 
-yewmakerol = pd.read_json("../utils/yewmakerol.json")
+yewmakerol = json.load(open('../utils/yewmakerol.json'))
 
 node_provider = NodeHTTPProvider(
         os.getenv("OT_NODE_HOSTNAME")
@@ -30,7 +31,7 @@ dkg = DKG(node_provider, blockchain_provider)
 # NOTE: If you are trying to create asset on tesntet network, you will need OTP and TRAC testnet tokens for the next operation. You can get them on the OriginTrail Discord token faucet, as explained here: 
 # https://docs.origintrail.io/decentralized-knowledge-graph-layer-2/testnet-node-setup-instructions/fund-your-v6-testnet-node
 
-createAssetResult: any = dkg.asset.create(yewmakerol, 5)
+createAssetResult: any = dkg.asset.create({"public": yewmakerol}, 5)
 
 print("Knowledge asset UAL: " + createAssetResult["UAL"])
 
