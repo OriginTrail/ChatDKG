@@ -1,8 +1,12 @@
-# ChatDKG - Extractive question answering with OriginTrail and Langchain
+# ChatDKG example - Extractive question answering with OriginTrail and Milvus
 
-This example shows a basic extractive question answering application built with OriginTrail Knowledge Assets and Langchain. 
-It walks you through the process of creating a single Knowledge Asset on the OriginTrail Decentralized Knowledge Graph and necessary indexing operations to enable extractive question answering (EQA) using natural language based semantic search (such as in the form of asking a question) over the Knowledge Asset content using Langchain and Milvus Vector DB.
+Hello there! This example will show you how to create a basic Extractive question answering system using OriginTrail Knowledge Assets and the open source Milvus Vector Database. To easily deploy the example, we will be using the hosted Milvus instance by the Zilliz platform.
 
+With this example you will:
+- create an OriginTrail Knowledge Asset from a JSON object, using the DKG Python client
+- create VectorDB index entries from that Knowledge Asset
+- Execute VectorDB similarity search over the index and discover the source Knowledge Assets
+ 
 In contrast to generative QA systems such as ChatGPT, an extractive system doesn't "hallucinate", rather only extracts content from within the verifiable Knowledge Asset. 
 Additionally, to extend the extractive approach, we also demonstrate an "extract & summarize" approach that takes the extracted content from the Knowledge Asset and submits it to an LLM (in this case OpenAI) to summarize.
 
