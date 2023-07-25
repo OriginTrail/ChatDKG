@@ -38,7 +38,7 @@ npm install
 Then, install Python dependencies:
 
 ```bash
-pip install dotenv openai langchain pandas dkg.py js2py git+https://github.com/OriginTrail/dkg.py.git
+pip install python-dotenv openai langchain pandas js2py git+https://github.com/OriginTrail/dkg.py.git
 ```
 ## Environment Variables
 
