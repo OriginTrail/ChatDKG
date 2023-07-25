@@ -38,7 +38,7 @@ npm install
 Then, install Python dependencies:
 
 ```bash
-pip install dotenv openai langchain pandas dkg.py js2py
+pip install dotenv openai langchain pandas dkg.py js2py git+https://github.com/OriginTrail/dkg.py.git
 ```
 ## Environment Variables
 
@@ -52,6 +52,7 @@ Open the .env file and replace the placeholders with your actual values. The fil
 
 ```makefile
 OT_NODE_HOSTNAME=<Your OT Node Hostname>
+RPC_ENDPOINT=<blockchain rpc endpoint>
 WALLET_PUBLIC_KEY=<Your Wallet Public Key>
 WALLET_PRIVATE_KEY=<Your Wallet Private Key>
 MILVUS_URI=<Your Milvus URI>
