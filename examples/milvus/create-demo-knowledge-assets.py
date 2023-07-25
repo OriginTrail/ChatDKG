@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import json
 import langchain
+import time
 import js2py
 from dkg import DKG
 from dkg.providers import BlockchainProvider, NodeHTTPProvider
@@ -13,7 +14,7 @@ from langchain.vectorstores import Milvus
 
 load_dotenv()
 
-# Load the content of the Knowledge Asset (using an imaginary medicine "Yewmakerol" leaflet as content
+# Load the content of the Knowledge Asset (using an imaginary medicine "Yewmakerol" leaflet as content)
 
 yewmakerol = json.load(open('../utils/yewmakerol.json'))
 
@@ -35,13 +36,51 @@ createAssetResult: any = dkg.asset.create({"public": yewmakerol}, 5)
 
 print("Knowledge asset UAL: " + createAssetResult["UAL"])
 
-# Call generate tsv script
-eval_res, tempfile = js2py.run_file("../utils/generate-tsv.js")
-tempfile.wish(createAssetResult["UAL"])
+# Read yewmakerol.json
+with open("../utils/yewmakerol.json", "r") as file:
+    yewmakerol = json.load(file)
+
+tsvData = []
+ual = createAssetResult["UAL"]
+id_value = yewmakerol["@id"]
+
+for section in yewmakerol["sections"]:
+    sectionTitle = section["title"]
+    for subsection in section["subsections"]:
+        subsectionTitle = subsection.get("title")
+
+        # Sanitize the body text here
+        sanitizedBody = subsection["body"].replace("\n", "\\n").replace("\t", "\\t")
+
+        if subsectionTitle:
+            sanitizedBody = f"{subsectionTitle} {sanitizedBody}"
+
+        if sectionTitle:
+            sanitizedBody = f"{sectionTitle} {sanitizedBody}"
+
+        tsvData.append({
+            "ual": ual,
+            "id": id_value,
+            "sectionTitle": sectionTitle if sectionTitle else "undefined",
+            "subsectionTitle": subsectionTitle if subsectionTitle else "undefined",
+            "body": sanitizedBody,
+        })
+
+# Convert JSON objects to TSV
+tsv = "\n".join("\t".join(str(val) for val in row.values()) for row in tsvData)
+
+# Add headers
+header = "\t".join(tsvData[0].keys())
+tsvWithHeader = f"{header}\n{tsv}"
+
+# Write to output.tsv
+with open("output.tsv", "w") as output_file:
+    output_file.write(tsvWithHeader)
+
 
 # with this Python script we are loading all Knowledge Asset vector embeddings into Milvus VectorDB
 
-df = pd.read_csv("../utils/output.tsv", sep="\t")
+df = pd.read_csv("./output.tsv", sep="\t")
 loader = DataFrameLoader(df, "body")
 docs = loader.load()
 
