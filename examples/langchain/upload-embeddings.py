@@ -10,7 +10,7 @@ from langchain.vectorstores import Milvus
 
 load_dotenv()
 
-df = pd.read_csv("output.tsv", sep="\t")
+df = pd.read_csv("../utils/output.tsv", sep="\t")
 loader = DataFrameLoader(df, "body")
 docs = loader.load()
 

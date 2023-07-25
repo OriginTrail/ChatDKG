@@ -5,7 +5,7 @@ import DKG from "dkg.js";
 import fs from "fs";
 
 // Load the content of the Knowledge Asset (using an imaginary medicine "Yewmakerol" leaflet as content
-const yewmakerol = JSON.parse(fs.readFileSync("./yewmakerol.json"));
+const yewmakerol = JSON.parse(fs.readFileSync("../utils/yewmakerol.json"));
 
 
 // initialize the DKG client on OriginTrail DKG Testnet
