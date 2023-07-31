@@ -150,6 +150,7 @@ ChatDKG Open office hours are organized on a frequent basis and are by default r
 | [1st ChatDKG Office Hours: Introduction to trusted AI search on OriginTrail](https://www.youtube.com/watch?v=Q3-d_Dxrjhs) | [![IMAGE ALT TEXT](http://img.youtube.com/vi/Q3-d_Dxrjhs/0.jpg)](https://www.youtube.com/watch?v=Q3-d_Dxrjhs "1st ChatDKG Office Hours: Introduction to trusted AI search on OriginTrail") |
 | [2nd ChatDKG Office Hours: Trusted AI search on OriginTrail](https://www.youtube.com/watch?v=cRPdl4wGroQ) | [![IMAGE ALT TEXT](http://img.youtube.com/vi/cRPdl4wGroQ/0.jpg)](https://www.youtube.com/watch?v=cRPdl4wGroQ "2nd ChatDKG Office Hours: Trusted AI search on OriginTrail") |
 | [3rd ChatDKG Office Hours: Decentralized AI with OriginTrail & Langchain](https://www.youtube.com/watch?v=xLcsKzUzgh4) | [![IMAGE ALT TEXT](http://img.youtube.com/vi/xLcsKzUzgh4/0.jpg)](https://www.youtube.com/watch?v=xLcsKzUzgh4 "3rd ChatDKG Office Hours: Decentralized AI with OriginTrail & Langchain") |
+| [4th ChatDKG Office Hours: Trusted Knowledge Applications with Milvus & OriginTrail](https://www.youtube.com/watch?v=2RPaQ6UfJ8U) | [![IMAGE ALT TEXT](http://img.youtube.com/vi/2RPaQ6UfJ8U/0.jpg)](https://www.youtube.com/watch?v=2RPaQ6UfJ8U "4th ChatDKG Office Hours: Trusted Knowledge Applications with Milvus & OriginTrail") |
 
 
 # Join the ChatDKG community
