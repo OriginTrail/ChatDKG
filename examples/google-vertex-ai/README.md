@@ -28,9 +28,9 @@ git clone https://github.com/Origintrail/ChatDKG
 cd ChatDKG
 ```
 
-## Node Dependencies
+## NodeJS Dependencies
 
-First install Python dependencies:
+First install NodeJS dependencies:
 
 ```bash
 npm install
