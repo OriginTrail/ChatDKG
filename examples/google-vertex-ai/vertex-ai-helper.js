@@ -4,6 +4,7 @@ import fs from "fs";
 import aiplatform from "@google-cloud/aiplatform";
 import { SpeechClient } from "@google-cloud/speech/build/src/v2/index.js";
 import pkg from "@google-cloud/speech/build/protos/protos.js";
+import "dotenv/config";
 
 // Loading embedding and metadata mapping
 const metadataMap = JSON.parse(
@@ -37,6 +38,7 @@ const projectNumber = process.env.GOOGLE_PROJECT_NUMBER;
 const indexEndpoint = process.env.GOOGLE_INDEX_ENDPOINT;
 const token = process.env.GOOGLE_AUTH_TOKEN;
 const deployedIndexId = process.env.GOOGLE_DEPLOYED_INDEX_ID;
+
 const location = "europe-west1";
 const publisher = "google";
 const limit = 3;
@@ -62,6 +64,7 @@ async function predict(model, instances, params = DEFAULT_PARAMS) {
     instances,
     parameters,
   };
+
   const [response] = await predictionServiceClient.predict(request);
   return response.predictions;
 }

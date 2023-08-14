@@ -1,10 +1,15 @@
-import { getEmbeddings, search } from "./vertex-ai-helper";
+import {
+  getEmbeddings,
+  getAnswerFromContext,
+  search,
+} from "./vertex-ai-helper.js";
 
 (async () => {
   const question = "Can children take yewmakerol ?";
 
   // Get embeddings for the user's question
   const [embeddings] = await getEmbeddings([question]);
+
   // Find nearest neighbors
   const response = await search(embeddings);
 
@@ -18,7 +23,7 @@ import { getEmbeddings, search } from "./vertex-ai-helper";
     .join("\n\n");
 
   // get answer from LLM
-  answer = await getAnswerFromContext(context, question);
+  const answer = await getAnswerFromContext(context, question);
 
-  console.log(`Answer from LLM:\n\n ${response}`);
+  console.log(`Answer from LLM:\n\n ${answer}`);
 })();

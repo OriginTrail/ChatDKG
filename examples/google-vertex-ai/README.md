@@ -7,7 +7,7 @@ With this example you will:
 - create an OriginTrail Knowledge Asset from a JSON object, using the DKG JS client
 - create index entries from that Knowledge Asset and upload them to a Vertex AI index
 - execute similarity search over the index via a public endpoint and discover the source Knowledge Assets
-- use Google Chirp speech recognition model to transcribe audio files
+- learn to use Google Chirp speech recognition model to transcribe audio files
 
 In contrast to generative QA systems such as ChatGPT, an extractive system doesn't "hallucinate", rather only extracts content from within the verifiable Knowledge Asset.
 Additionally, to extend the extractive approach, we also demonstrate an "extract & summarize" approach that takes the extracted content from the Knowledge Asset and submits it to an LLM (in this case Vertex AI Prediction Service) to summarize.
@@ -17,7 +17,6 @@ Additionally, to extend the extractive approach, we also demonstrate an "extract
 - NodeJS 16
 - Access to an OriginTrail DKG node. You can setup your own by following instructions [here](https://docs.origintrail.io/decentralized-knowledge-graph-layer-2/testnet-node-setup-instructions/setup-instructions-dockerless)
 - An account and a project set up on [Google Vertex AI](https://cloud.google.com/vertex-ai).
-- Optionally: OpenAI API key
 
 ## Installation
 
@@ -33,6 +32,7 @@ cd ChatDKG
 First install NodeJS dependencies:
 
 ```bash
+cd examples/google-vertex-ai
 npm install
 ```
 
@@ -41,7 +41,6 @@ npm install
 You'll need to setup your environment variables. Copy the .env.example to a new .env file:
 
 ```bash
-cd examples/google-vertex-ai
 cp .env.example .env
 ```
 
@@ -60,11 +59,15 @@ GOOGLE_DEPLOYED_INDEX_ID=<Your Google Matching Engine Deployed Index ID>
 GOOGLE_AUTH_TOKEN=<Your Google Auth Token>
 ```
 
-# Usage
+## Additional Google authorization setup
 
-create an index - notebook
-create a public endpoint
-query it with the code
+In order for you to get authorized by the Google SDK, you also have to create your Service account credentials on Google Vertex AI. You can follow this link https://developers.google.com/workspace/guides/create-credentials to create one and export it as JSON. Add it to your project and run the following command adding the full path to the JSON file.
+
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="PATH_TO_KEY.JSON"
+```
+
+# Usage
 
 ## Create a Knowledge Asset
 
@@ -74,11 +77,11 @@ Start by running the `create-knowledge-asset-embeddings.js` script:
 node create-knowledge-asset-embeddings.js
 ```
 
-The script will create a knowledge asset on DKG, print a Uniform Asset Locator (UAL), generate and create a JSON files with the metadata and the embeddings. This file should later be uploaded to a Google Cloud Bucket and used for creating the index which is explained in the Python notebook attached.
+The script will create a knowledge asset on DKG, print a Uniform Asset Locator (UAL), generate and create a JSON file with the metadata and the embeddings. This file should later be uploaded to a Google Cloud Bucket and used for creating the index which is explained in the Python notebook.
 
 ## Create a Vertex AI index
 
-Import the MatchingEngine.ipynb notebook into [Google Colab](https://colab.google/) and follow the steps to deploy your index. Make sure to replace the demo project information with your own project id, location etc.
+After you've set up your Vertex AI project, import the MatchingEngine.ipynb notebook into [Google Colab](https://colab.google/) and follow the steps to deploy your index. Make sure to replace the demo project information with your own project id, location etc.
 
 ## Create a Vertex AI public index endpoint
 
@@ -100,4 +103,4 @@ This will generate responses based on the uploaded knowledge graph.
 
 ## Troubleshooting
 
-If you encounter any issues, please check that you've correctly set all environment variables in the .env file and that you have the right version Python. If you continue to experience problems, please open an issue in the GitHub repository.
+If you encounter any issues, please check that you've correctly set all environment variables in the .env file and that you have the right version of NodeJS. If you continue to experience problems, please open an issue in the GitHub repository.
