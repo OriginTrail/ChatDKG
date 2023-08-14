@@ -8,6 +8,8 @@
   "license": "",
   "main": "index.js",
   "dependencies": {
+    "@google-cloud/aiplatform": "^3.0.0",
+    "@google-cloud/speech": "^6.0.0",
     "dkg.js": "^6.0.7",
     "dotenv": "^16.3.1"
   },
