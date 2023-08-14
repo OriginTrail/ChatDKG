@@ -77,7 +77,7 @@ Start by running the `create-knowledge-asset-embeddings.js` script:
 node create-knowledge-asset-embeddings.js
 ```
 
-The script will create a knowledge asset on DKG, print a Uniform Asset Locator (UAL), generate and create a JSON files with the metadata and the embeddings. This file should later be uploaded to a Google Cloud Bucket and used for creating the index which is explained in the Python notebook.
+The script will create a knowledge asset on DKG, print a Uniform Asset Locator (UAL), generate and create a JSON file with the metadata and the embeddings. This file should later be uploaded to a Google Cloud Bucket and used for creating the index which is explained in the Python notebook.
 
 ## Create a Vertex AI index
 
