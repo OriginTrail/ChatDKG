@@ -17,7 +17,6 @@ Additionally, to extend the extractive approach, we also demonstrate an "extract
 - NodeJS 16
 - Access to an OriginTrail DKG node. You can setup your own by following instructions [here](https://docs.origintrail.io/decentralized-knowledge-graph-layer-2/testnet-node-setup-instructions/setup-instructions-dockerless)
 - An account and a project set up on [Google Vertex AI](https://cloud.google.com/vertex-ai).
-- Optionally: OpenAI API key
 
 ## Installation
 
@@ -62,10 +61,6 @@ GOOGLE_AUTH_TOKEN=<Your Google Auth Token>
 
 # Usage
 
-create an index - notebook
-create a public endpoint
-query it with the code
-
 ## Create a Knowledge Asset
 
 Start by running the `create-knowledge-asset-embeddings.js` script:
@@ -74,7 +69,7 @@ Start by running the `create-knowledge-asset-embeddings.js` script:
 node create-knowledge-asset-embeddings.js
 ```
 
-The script will create a knowledge asset on DKG, print a Uniform Asset Locator (UAL), generate and create a JSON files with the metadata and the embeddings. This file should later be uploaded to a Google Cloud Bucket and used for creating the index which is explained in the Python notebook attached.
+The script will create a knowledge asset on DKG, print a Uniform Asset Locator (UAL), generate and create a JSON files with the metadata and the embeddings. This file should later be uploaded to a Google Cloud Bucket and used for creating the index which is explained in the Python notebook.
 
 ## Create a Vertex AI index
 
@@ -100,4 +95,4 @@ This will generate responses based on the uploaded knowledge graph.
 
 ## Troubleshooting
 
-If you encounter any issues, please check that you've correctly set all environment variables in the .env file and that you have the right version Python. If you continue to experience problems, please open an issue in the GitHub repository.
+If you encounter any issues, please check that you've correctly set all environment variables in the .env file and that you have the right version of NodeJS. If you continue to experience problems, please open an issue in the GitHub repository.
