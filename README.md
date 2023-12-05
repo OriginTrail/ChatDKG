@@ -117,6 +117,9 @@ Steering committee members:
 - [DKG Copilot](https://github.com/sailingamigos/dkg-researcher-plugin)
   - DKG Copilot is designed to help users retrieve, analyze, and manage information about scientific papers from the OriginTrail Decentralized Knowledge Graph (DKG). Users can ask questions in natural language about scientific papers that can be found in the DKG by generating SPARQL queries based on an ontology.
 - [Truthchain](https://github.com/Collabwriting/Truthchain)
+  - [DKG Azure Function API](https://github.com/Collabwriting/DkgAzureFunction)
+  - [Truthchain Extension repository](https://github.com/Collabwriting/TruthchainExtension)
+  - [Chrome Extension](https://github.com/Collabwriting/TruthchainExtension)
   - Truthchain is an open-source project dedicated to combating misinformation and promoting truth in an increasingly digital and interconnected world. By harnessing the power of blockchain technology, data verifiers, and user contributions, Truthchain aims to create a decentralized platform where users can collect, verify, and store data, ensuring its authenticity and credibility. This will bring to the forefront quality information, with reputable sources, as a way to build on shared knowledge and individual insights.
 - [OTHub](https://github.com/othub-io)
   - OTHub seeks to incorporate and augment the hallmark features that distinguished OTHub, paving the way for broader adoption. It not only continues to provide a comprehensive overview of the Decentralized Knowledge Graph V6 network statistics to all participants but also introduces bespoke dashboards for asset publishers and DKG network stakeholders. The main focus is to enhance accessibility, efficiency, and user-friendliness for the publication of new knowledge assets on the ecosystem. Expanding OTHub's scope, the platform will serve as the foundational layer - the OTHub portal, enabling other projects and individuals to seamlessly get, update, and publish knowledge assets via OTHub-api and OTHub-bot.
@@ -125,6 +128,7 @@ Steering committee members:
 - [PolyCode/Dev3](https://app.dev3.sh/)
   - [PolyCode Frontend](https://github.com/0xDev3/dev3-frontend)
   - [PolyCode SDK](https://github.com/0xDev3/dev3-sdk)
+  - [PolyCode Documentation](https://docs.dev3.sh/welcome-to-dev3/integrations/origintrail-dkg)
   - Dev3 is a blockchain low-code development and business process automation framework. It’s enterprise-grade, yet simple to use. It can scale from small individual projects to millions of daily users. Whatever you are building in blockchain – Dev3 makes it easier and more secure! All Dev3 apps have amazing user experience right out of the box from years of research and development on how to provide usable blockchain software to regular, non-technical users.
 
 # ChatDKG - Open Office hours videos
