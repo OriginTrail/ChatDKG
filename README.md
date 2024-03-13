@@ -1,5 +1,9 @@
 # ChatDKG - an open framework for trusted AI based on OriginTrail DKG :rocket:
 
+**ChatDKG** is a Decentralized Augmented Retrieval (dRAG) focused framework, which includes a set of tools and techniques for building Verifiable AI applications and services.
+
+It leverages the OriginTrail Decentralized Knowledge Graph technology enabling a neuro-symbolic AI approach for dRAG applications. More details on dRAG and associated concepts can be found in the following paper: [Whitepaper 3.0](https://origintrail.io/documents/Verifiable_Internet_for_Artificial_Intelligence_whitepaper_v3_pre_publication.pdf)
+
 ## Why ChatDKG?
 
 According to Goldman Sachs Chief Information Officer, Marco Argenti, "the impact of advances in generative artificial intelligence on society could be comparable to the printing press" and with over 91% of top businesses currently investing in AI (NewVantage, 2022), those opportunities might be seized at a very rapid pace. However, with the internet already flooded with misinformation, AI is likely to amplify the problem.
@@ -17,27 +21,26 @@ Using such outputs could lead to incorrect decisions/actions and the rise of bia
 
 ## What is ChatDKG?
 
-ChatDKG is an open framework for efficient search, access, and utilization of trusted knowledge with AI, based on OriginTrail Decentralized Knowledge Graph (DKG) and Knowledge Assets. The ChatDKG framework is designed as an open community project to explore a diverse range of possible applications.
+ChatDKG is an open framework for efficient search, access, and utilization of trusted knowledge with AI, based on OriginTrail Decentralized Knowledge Graph (DKG), Paranets and Knowledge Assets. The ChatDKG framework is designed as an open community project to explore a diverse range of possible applications.
 
 The key objectives of ChatDKG are to:
 
-- Create technical tools based on Knowledge Assets and AI
+- Create AI services based on the Verifiable Internet principles running on OriginTrail DKG Paranets
 - Establish best practices for discovering, accessing, querying and verifying trusted knowledge with AI tools
-- Generate a trusted, open knowledge base by creating Knowledge Assets through crowdsourcing and iterations on OriginTrail DKG Mainnet
+- Generate a trusted, open knowledge base by creating DKG Paranets through crowdsourcing and iterations on OriginTrail DKG Mainnet
 
 **[Join the ChatDKG community on Discord](https://discord.gg/R4tRpCuwaA)**
 
 ## 1 million TRAC grant pool available for ChatDKG builders
+For builders looking to advance the set of tools for the Verifiable Internet  and support the development of the ChatDKG framework a 1 million TRAC token grant pool was [made available by Trace Labs, core developers of OriginTrail](https://medium.com/origintrail/trusted-ai-with-origintrail-join-the-fight-against-misinformation-and-participate-in-1-million-3f528ad06a22). There are three levels of grants available, depending on a project’s potential:
 
-For contributors that want to get involved and support the development of the ChatDKG framework a 1 million TRAC token grant pool was [made available by Trace Labs](https://medium.com/origintrail/trusted-ai-with-origintrail-join-the-fight-against-misinformation-and-participate-in-1-million-3f528ad06a22). There are three levels of grants available, depending on a project’s potential:
-
-- :rabbit: Rabbit level: 25k TRAC
-- :eagle: Eagle level: 50k TRAC
-- :fire: Phoenix level: 100k TRAC
+- :rabbit: Rabbit level: 5k TRAC
+- :eagle: Eagle level: 10k TRAC
+- :fire: Phoenix level: 20k TRAC
 
 The potential of each project is evaluated by the Steering committee during the application process, based on three categories:
 
-- Utility of OriginTrail DKG and Knowledge Assets for AI systems
+- Utility of OriginTrail DKG, Paranets and Knowledge Assets for AI systems
 - Breadth (widely vs narrowly applicable)
 - Scalability of project components
 
@@ -45,11 +48,11 @@ The potential of each project is evaluated by the Steering committee during the 
 
 There are four key challenge areas that you can apply for:
 
-- **Semantic search over Knowledge Assets** (e.g. Knowledge asset vector similarity search tools)
+- **Semantic search over DKG Paranets** (e.g. Knowledge asset vector similarity search tools)
 - **Natural language querying over OriginTrail DKG** (e.g. GPT-based SPARQL query generator)
-- **AI-based Knowledge publishing tools** (e.g. Agents for KA semantic enrichment)
+- **AI-based Knowledge mining tools** (e.g. Agents for KA semantic enrichment)
 - **General AI system integrations** (e.g. integrations with Huggingface, BARD, Langchain, etc.)
-- **Other ideas relevant to the application of AI and DKG** (Knowledge Assets)
+- **Other ideas relevant to the DKG** (Knowledge Assets and Paranets)
 
 ## How do I start?
 
@@ -57,14 +60,15 @@ Applications to the ChatDKG grant program are done on a rolling basis, meaning y
 
 Your project needs to meet the following criteria for a successful application to the ChatDKG grant program:
 
-- Public, open-source project
-- Has to apply to OriginTrail DKG and Knowledge Assets
-- Has to solve a meaningful problem
-- Active development & engagement in ChatDKG Discord
+1. Public, open-source project
+2. Has to either deploy a new DKG Paranet, or extend an existing Paranet
+3. Has to deploy at least 20% of the grant funds for knowledge mining
+4. Has to solve a meaningful problem
+5. Active development & engagement in ChatDKG Discord
 
 ## **[Apply for a ChatDKG grant HERE](https://docs.google.com/forms/d/1UWoyQoZaQ4SvO2lFh3zdAil7iHq8o-T5aX79fPbGHag/edit)** 🚀
 
-## How does the grant process look like?
+## What does the grant process look like?
 
 ### 🏅 **Step 1: Apply with your idea**
 
@@ -82,10 +86,12 @@ Your project needs to meet the following criteria for a successful application t
 ### :star2: **Step 3: Submit your results**
 
 - Submit your final deliverables when ready
-  - Deliverables should be in the form of code in your GitHub repo
+  - Open source code in your GitHub repo
+  - An established Paranet on OriginTrail DKG Mainnet
 - Review and demo with the Steering committee
   - Demo needs to be done with Knowledge Assets on OriginTrail DKG mainnet
 - Public presentation of your project and demo in the Open Office Hours
+- Prepared and executed a marketing plan
 - Collect the rest of your grant upon successful review
 
 ## **[Apply for a ChatDKG grant HERE](https://docs.google.com/forms/d/1UWoyQoZaQ4SvO2lFh3zdAil7iHq8o-T5aX79fPbGHag/edit)** 🚀
@@ -110,9 +116,10 @@ Steering committee members:
 
 - [OriginTrail documentation](https://docs.origintrail.io/)
 - [OriginTrail website](https://origintrail.io/)
+- [Whitepaper 3.0 - Verifiable Internet for Artificial Intelligence: The Convergence of Crypto, Internet and AI](https://origintrail.io/ecosystem/whitepaper)
 - [1st ChatDKG Open Office Hours presentation](https://drive.google.com/file/d/177MZ9ASFLJbMvtEXDKjqfScTKJSQ1Qys/view?usp=share_link)
 
-# Funded Projects
+# ChatDKG framework tools
 
 - [DKG Copilot](https://github.com/sailingamigos/dkg-researcher-plugin)
   - DKG Copilot is designed to help users retrieve, analyze, and manage information about scientific papers from the OriginTrail Decentralized Knowledge Graph (DKG). Users can ask questions in natural language about scientific papers that can be found in the DKG by generating SPARQL queries based on an ontology.
