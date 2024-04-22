@@ -6,5 +6,5 @@ This dRAG example focuses on art Knowledge Assets, using Google Gemini via the G
 
 For more detailed insights into this example, refer to the blogpost:
 
-- [Read our detailed blogpost](https://example.com/blog-post)
+- [Read our detailed blogpost](https://origintrail.io/blog/decentralized-rag-101-with-origintrail-dkg-and-google-gemini)
 - [Explore the Python notebook](https://colab.research.google.com/drive/1O2tV0lFjOEMYWr9brYX6CNOxaVeD6gK0?usp=sharing)
